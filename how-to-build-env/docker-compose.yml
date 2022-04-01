@@ -1,0 +1,34 @@
+version: '3'
+
+services:
+  memcached_server1:
+    image: lrcmemcached:running
+    networks:
+      memcached_net:
+        ipv4_address: 172.16.238.10
+
+  memcached_server2:
+    image: lrcmemcached:running
+    networks:
+      memcached_net:
+        ipv4_address: 172.16.238.11
+
+  memcached_server3:
+    image: lrcmemcached:running
+    networks:
+      memcached_net:
+        ipv4_address: 172.16.238.12
+
+  memcached_server4:
+    image: lrcmemcached:running
+    networks:
+      memcached_net:
+        ipv4_address: 172.16.238.13
+
+
+networks:
+  memcached_net:
+    ipam:
+      driver: default
+      config:
+        - subnet: "172.16.238.0/24"

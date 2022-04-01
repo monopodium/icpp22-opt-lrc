@@ -1,0 +1,616 @@
+k8s@node2:~/lrc_libmemcached-msdev$ ./mytest 12 6 3 4 3 1 > a.txt
+default lrc basic write time: 0.004022 s
+default lrc basic write time(min): 0.003787 s
+default lrc basic write time(max): 0.004744 s
+default_divide_latency: 0.000013 s
+default_divide_latency(min): 0.000004 s
+default_divide_latency(max): 0.000034 s
+default_encoding_latency: 0.000042 s
+default_encoding_latency(min): 0.000021 s
+default_encoding_latency(max): 0.000057 s
+default_transmission_latency: 0.003706 s
+default_transmission_latency(min): 0.003486 s
+default_transmission_latency(max): 0.004432 s
+our lrc basic write time: 0.002863 s
+our lrc basic write time(min): 0.002744 s
+our lrc basic write time(max): 0.003040 s
+our_divide_latency: 0.000013 s
+our_divide_latency(min): 0.000004 s
+our_divide_latency(max): 0.000025 s
+our_encoding_latency: 0.000030 s
+our_encoding_latency(min): 0.000017 s
+our_encoding_latency(max): 0.000045 s
+our_transmission_latency: 0.002571 s
+our_transmission_latency(min): 0.002459 s
+our_transmission_latency(max): 0.002755 s
+lrc basic NRC time: 0.000873 s
+lrc basic NRC time(min): 0.000860 s
+lrc basic NRC time(max): 0.000894 s
+lrc basic DRC time: 0.000468 s
+lrc basic DRC time(min): 0.000430 s
+lrc basic DRC time(max): 0.000523 s
+lrc basic delete time: 0.000315 s
+
+k8s@node2:~/lrc_libmemcached-msdev$ ./mytest 12 6 3 4 3 1024 > b.txt
+default lrc basic write time: 0.019903 s
+default lrc basic write time(min): 0.018554 s
+default lrc basic write time(max): 0.024445 s
+default_divide_latency: 0.002198 s
+default_divide_latency(min): 0.001962 s
+default_divide_latency(max): 0.003611 s
+default_encoding_latency: 0.005982 s
+default_encoding_latency(min): 0.005668 s
+default_encoding_latency(max): 0.007342 s
+default_transmission_latency: 0.011576 s
+default_transmission_latency(min): 0.010604 s
+default_transmission_latency(max): 0.013319 s
+our lrc basic write time: 0.015654 s
+our lrc basic write time(min): 0.015389 s
+our lrc basic write time(max): 0.015839 s
+our_divide_latency: 0.001784 s
+our_divide_latency(min): 0.001701 s
+our_divide_latency(max): 0.001902 s
+our_encoding_latency: 0.005511 s
+our_encoding_latency(min): 0.005402 s
+our_encoding_latency(max): 0.005720 s
+our_transmission_latency: 0.008238 s
+our_transmission_latency(min): 0.007639 s
+our_transmission_latency(max): 0.008498 s
+lrc basic NRC time: 0.003523 s
+lrc basic NRC time(min): 0.003187 s
+lrc basic NRC time(max): 0.004737 s
+lrc basic DRC time: 0.001655 s
+lrc basic DRC time(min): 0.001627 s
+lrc basic DRC time(max): 0.001717 s
+lrc basic delete time: 0.000438 s
+
+k8s@node2:~/lrc_libmemcached-msdev$ ./mytest 12 6 3 4 3 1024 > b.txt
+default lrc basic write time: 0.024358 s
+default lrc basic write time(min): 0.023332 s
+default lrc basic write time(max): 0.027035 s
+default_divide_latency: 0.002099 s
+default_divide_latency(min): 0.001904 s
+default_divide_latency(max): 0.002995 s
+default_encoding_latency: 0.005875 s
+default_encoding_latency(min): 0.005578 s
+default_encoding_latency(max): 0.006892 s
+default_transmission_latency: 0.016237 s
+default_transmission_latency(min): 0.015604 s
+default_transmission_latency(max): 0.017002 s
+our lrc basic write time: 0.020302 s
+our lrc basic write time(min): 0.020004 s
+our lrc basic write time(max): 0.020611 s
+our_divide_latency: 0.001956 s
+our_divide_latency(min): 0.001910 s
+our_divide_latency(max): 0.002060 s
+our_encoding_latency: 0.005693 s
+our_encoding_latency(min): 0.005656 s
+our_encoding_latency(max): 0.005824 s
+our_transmission_latency: 0.012515 s
+our_transmission_latency(min): 0.012289 s
+our_transmission_latency(max): 0.012697 s
+lrc basic NRC time: 0.003746 s
+lrc basic NRC time(min): 0.003467 s
+lrc basic NRC time(max): 0.004798 s
+lrc basic DRC time: 0.001760 s
+lrc basic DRC time(min): 0.001641 s
+lrc basic DRC time(max): 0.001889 s
+lrc basic delete time: 0.000403 s
+
+k8s@node2:~/lrc_libmemcached-msdev$ ./mytest 12 6 3 4 3 4096 > b.txt
+default lrc basic write time: 0.098015 s
+default lrc basic write time(min): 0.089278 s
+default lrc basic write time(max): 0.102891 s
+default_divide_latency: 0.008861 s
+default_divide_latency(min): 0.006491 s
+default_divide_latency(max): 0.012518 s
+default_encoding_latency: 0.028516 s
+default_encoding_latency(min): 0.021472 s
+default_encoding_latency(max): 0.033013 s
+default_transmission_latency: 0.060116 s
+default_transmission_latency(min): 0.059175 s
+default_transmission_latency(max): 0.062140 s
+our lrc basic write time: 0.079106 s
+our lrc basic write time(min): 0.070700 s
+our lrc basic write time(max): 0.088468 s
+our_divide_latency: 0.007804 s
+our_divide_latency(min): 0.006439 s
+our_divide_latency(max): 0.009656 s
+our_encoding_latency: 0.026378 s
+our_encoding_latency(min): 0.021470 s
+our_encoding_latency(max): 0.033091 s
+our_transmission_latency: 0.044433 s
+our_transmission_latency(min): 0.042246 s
+our_transmission_latency(max): 0.046946 s
+lrc basic NRC time: 0.013338 s
+lrc basic NRC time(min): 0.012106 s
+lrc basic NRC time(max): 0.015204 s
+lrc basic DRC time: 0.006826 s
+lrc basic DRC time(min): 0.006340 s
+lrc basic DRC time(max): 0.007685 s
+lrc basic delete time: 0.000432 s
+
+k8s@node2:~/lrc_libmemcached-msdev$ ./mytest 12 6 3 4 3 1024 > b.txt
+default lrc basic write time: 0.043849 s
+default lrc basic write time(min): 0.042337 s
+default lrc basic write time(max): 0.047070 s
+default_divide_latency: 0.002225 s
+default_divide_latency(min): 0.001844 s
+default_divide_latency(max): 0.003173 s
+default_encoding_latency: 0.006441 s
+default_encoding_latency(min): 0.005570 s
+default_encoding_latency(max): 0.008722 s
+default_transmission_latency: 0.035025 s
+default_transmission_latency(min): 0.034686 s
+default_transmission_latency(max): 0.036073 s
+our lrc basic write time: 0.035891 s
+our lrc basic write time(min): 0.034162 s
+our lrc basic write time(max): 0.040276 s
+our_divide_latency: 0.002216 s
+our_divide_latency(min): 0.002061 s
+our_divide_latency(max): 0.002561 s
+our_encoding_latency: 0.006539 s
+our_encoding_latency(min): 0.005804 s
+our_encoding_latency(max): 0.009226 s
+our_transmission_latency: 0.026965 s
+our_transmission_latency(min): 0.026069 s
+our_transmission_latency(max): 0.028519 s
+lrc basic NRC time: 0.004033 s
+lrc basic NRC time(min): 0.003589 s
+lrc basic NRC time(max): 0.005332 s
+lrc basic DRC time: 0.002015 s
+lrc basic DRC time(min): 0.001789 s
+lrc basic DRC time(max): 0.002105 s
+lrc basic delete time: 0.000452 s
+
+k8s@node2:~/lrc_libmemcached-msdev$ ./mytest 12 6 3 4 3 1024
+input_file:./input_item_1024K_LRC
+------------------------------------
+count: 13
+network_core_ip:10.0.0.53
+ network_core_host:8888 
+network_core_server_key:12 
+
+rack:-1
+ii:0
+instance->port():12111
+ii:1
+instance->port():12112
+ii:2
+instance->port():12113
+ii:3
+instance->port():12114
+rack:0
+ii:4
+instance->port():12115
+ii:5
+instance->port():12116
+ii:6
+instance->port():12117
+ii:7
+instance->port():12118
+rack:1
+ii:8
+instance->port():12119
+ii:9
+instance->port():12120
+ii:10
+instance->port():12121
+ii:11
+instance->port():12122
+
+ptr->node2rack[0]:0
+ptr->node2rack[1]:1
+ptr->node2rack[2]:2
+ptr->node2rack[3]:3
+ptr->node2rack[4]:4
+ptr->node2rack[5]:5
+ptr->node2rack[6]:6
+ptr->node2rack[7]:7
+ptr->node2rack[8]:8
+ptr->node2rack[9]:9
+ptr->node2rack[10]:10
+ptr->node2rack[11]:11
+--------------------------------
+default lrc basic write time: 0.047465 s
+default lrc basic write time(min): 0.045446 s
+default lrc basic write time(max): 0.049996 s
+default_divide_latency: 0.002678 s
+default_divide_latency(min): 0.002205 s
+default_divide_latency(max): 0.004164 s
+default_encoding_latency: 0.007988 s
+default_encoding_latency(min): 0.006689 s
+default_encoding_latency(max): 0.009438 s
+default_transmission_latency: 0.036602 s
+default_transmission_latency(min): 0.036112 s
+default_transmission_latency(max): 0.037112 s
+Save data:lrc_big_obj_k1024
+--------------------------------
+our lrc basic write time: 0.038590 s
+our lrc basic write time(min): 0.036423 s
+our lrc basic write time(max): 0.040942 s
+our_divide_latency: 0.002436 s
+our_divide_latency(min): 0.002277 s
+our_divide_latency(max): 0.002653 s
+our_encoding_latency: 0.008287 s
+our_encoding_latency(min): 0.006882 s
+our_encoding_latency(max): 0.009926 s
+our_transmission_latency: 0.027684 s
+our_transmission_latency(min): 0.027098 s
+our_transmission_latency(max): 0.028363 s
+--------------------------------
+lrc basic NRC time: 0.004320 s
+lrc basic NRC time(min): 0.003830 s
+lrc basic NRC time(max): 0.005344 s
+--------------------------------
+lrc basic DRC time: 0.001906 s
+lrc basic DRC time(min): 0.001798 s
+lrc basic DRC time(max): 0.002120 s
+--------------------------------
+lrc basic delete time: 0.000415 s
+Get value length: 1048576
+
+k8s@node2:~/lrc_libmemcached-msdev$ ./mytest 12 6 3 4 3 1024
+input_file:./input_item_1024K_LRC
+------------------------------------
+count: 13
+network_core_ip:10.0.0.53
+ network_core_host:8888 
+network_core_server_key:12 
+
+rack:-1
+ii:0
+instance->port():12111
+ii:1
+instance->port():12112
+ii:2
+instance->port():12113
+ii:3
+instance->port():12114
+rack:0
+ii:4
+instance->port():12115
+ii:5
+instance->port():12116
+ii:6
+instance->port():12117
+ii:7
+instance->port():12118
+rack:1
+ii:8
+instance->port():12119
+ii:9
+instance->port():12120
+ii:10
+instance->port():12121
+ii:11
+instance->port():12122
+
+ptr->node2rack[0]:0
+ptr->node2rack[1]:1
+ptr->node2rack[2]:2
+ptr->node2rack[3]:3
+ptr->node2rack[4]:4
+ptr->node2rack[5]:5
+ptr->node2rack[6]:6
+ptr->node2rack[7]:7
+ptr->node2rack[8]:8
+ptr->node2rack[9]:9
+ptr->node2rack[10]:10
+ptr->node2rack[11]:11
+--------------------------------
+default lrc basic write time: 0.057336 s
+default lrc basic write time(min): 0.053971 s
+default lrc basic write time(max): 0.060169 s
+default_divide_latency: 0.002708 s
+default_divide_latency(min): 0.002184 s
+default_divide_latency(max): 0.003573 s
+default_encoding_latency: 0.008314 s
+default_encoding_latency(min): 0.006321 s
+default_encoding_latency(max): 0.010143 s
+default_transmission_latency: 0.046113 s
+default_transmission_latency(min): 0.044520 s
+default_transmission_latency(max): 0.047068 s
+Save data:lrc_big_obj_k1024
+--------------------------------
+our lrc basic write time: 0.045406 s
+our lrc basic write time(min): 0.042563 s
+our lrc basic write time(max): 0.047497 s
+our_divide_latency: 0.002418 s
+our_divide_latency(min): 0.002062 s
+our_divide_latency(max): 0.002727 s
+our_encoding_latency: 0.007818 s
+our_encoding_latency(min): 0.005764 s
+our_encoding_latency(max): 0.009840 s
+our_transmission_latency: 0.034988 s
+our_transmission_latency(min): 0.034406 s
+our_transmission_latency(max): 0.035784 s
+--------------------------------
+lrc basic NRC time: 0.004349 s
+lrc basic NRC time(min): 0.003932 s
+lrc basic NRC time(max): 0.005371 s
+--------------------------------
+lrc basic DRC time: 0.002085 s
+lrc basic DRC time(min): 0.001998 s
+lrc basic DRC time(max): 0.002218 s
+--------------------------------
+lrc basic delete time: 0.000422 s
+Get value length: 1048576
+
+k8s@node2:~/lrc_libmemcached-msdev$ ./mytest 12 6 3 4 3 4096
+input_file:./input_item_4096K_LRC
+------------------------------------
+count: 13
+network_core_ip:10.0.0.53
+ network_core_host:8888 
+network_core_server_key:12 
+
+rack:-1
+ii:0
+instance->port():12111
+ii:1
+instance->port():12112
+ii:2
+instance->port():12113
+ii:3
+instance->port():12114
+rack:0
+ii:4
+instance->port():12115
+ii:5
+instance->port():12116
+ii:6
+instance->port():12117
+ii:7
+instance->port():12118
+rack:1
+ii:8
+instance->port():12119
+ii:9
+instance->port():12120
+ii:10
+instance->port():12121
+ii:11
+instance->port():12122
+
+ptr->node2rack[0]:0
+ptr->node2rack[1]:1
+ptr->node2rack[2]:2
+ptr->node2rack[3]:3
+ptr->node2rack[4]:4
+ptr->node2rack[5]:5
+ptr->node2rack[6]:6
+ptr->node2rack[7]:7
+ptr->node2rack[8]:8
+ptr->node2rack[9]:9
+ptr->node2rack[10]:10
+ptr->node2rack[11]:11
+--------------------------------
+default lrc basic write time: 0.211603 s
+default lrc basic write time(min): 0.208445 s
+default lrc basic write time(max): 0.218941 s
+default_divide_latency: 0.010262 s
+default_divide_latency(min): 0.009125 s
+default_divide_latency(max): 0.013101 s
+default_encoding_latency: 0.027854 s
+default_encoding_latency(min): 0.023679 s
+default_encoding_latency(max): 0.034604 s
+default_transmission_latency: 0.172920 s
+default_transmission_latency(min): 0.171894 s
+default_transmission_latency(max): 0.174141 s
+Save data:lrc_big_obj_k4096
+--------------------------------
+our lrc basic write time: 0.169872 s
+our lrc basic write time(min): 0.161279 s
+our lrc basic write time(max): 0.179881 s
+our_divide_latency: 0.009614 s
+our_divide_latency(min): 0.007682 s
+our_divide_latency(max): 0.010909 s
+our_encoding_latency: 0.028589 s
+our_encoding_latency(min): 0.022572 s
+our_encoding_latency(max): 0.036024 s
+our_transmission_latency: 0.131109 s
+our_transmission_latency(min): 0.129649 s
+our_transmission_latency(max): 0.132921 s
+--------------------------------
+lrc basic NRC time: 0.014318 s
+lrc basic NRC time(min): 0.012939 s
+lrc basic NRC time(max): 0.016597 s
+--------------------------------
+lrc basic DRC time: 0.007051 s
+lrc basic DRC time(min): 0.006273 s
+lrc basic DRC time(max): 0.007744 s
+--------------------------------
+lrc basic delete time: 0.000417 s
+Get value length: 4194304
+
+k8s@node2:~/lrc_libmemcached-msdev$ ./mytest 12 6 3 4 12 1024
+input_file:./input_item_1024K_LRC
+------------------------------------
+count: 13
+network_core_ip:10.0.0.53
+ network_core_host:8888 
+network_core_server_key:12 
+
+rack:-1
+ii:0
+instance->port():12111
+rack:0
+ii:1
+instance->port():12112
+rack:1
+ii:2
+instance->port():12113
+rack:2
+ii:3
+instance->port():12114
+rack:3
+ii:4
+instance->port():12115
+rack:4
+ii:5
+instance->port():12116
+rack:5
+ii:6
+instance->port():12117
+rack:6
+ii:7
+instance->port():12118
+rack:7
+ii:8
+instance->port():12119
+rack:8
+ii:9
+instance->port():12120
+rack:9
+ii:10
+instance->port():12121
+rack:10
+ii:11
+instance->port():12122
+
+ptr->node2rack[0]:0
+ptr->node2rack[1]:1
+ptr->node2rack[2]:2
+ptr->node2rack[3]:3
+ptr->node2rack[4]:4
+ptr->node2rack[5]:5
+ptr->node2rack[6]:6
+ptr->node2rack[7]:7
+ptr->node2rack[8]:8
+ptr->node2rack[9]:9
+ptr->node2rack[10]:10
+ptr->node2rack[11]:11
+--------------------------------
+default lrc basic write time: 0.056786 s
+default lrc basic write time(min): 0.053913 s
+default lrc basic write time(max): 0.058773 s
+default_divide_latency: 0.002580 s
+default_divide_latency(min): 0.002163 s
+default_divide_latency(max): 0.003285 s
+default_encoding_latency: 0.008293 s
+default_encoding_latency(min): 0.005826 s
+default_encoding_latency(max): 0.009903 s
+default_transmission_latency: 0.045717 s
+default_transmission_latency(min): 0.044606 s
+default_transmission_latency(max): 0.046073 s
+Save data:lrc_big_obj_k1024
+--------------------------------
+our lrc basic write time: 0.056831 s
+our lrc basic write time(min): 0.053734 s
+our lrc basic write time(max): 0.059379 s
+our_divide_latency: 0.002432 s
+our_divide_latency(min): 0.002080 s
+our_divide_latency(max): 0.002737 s
+our_encoding_latency: 0.008186 s
+our_encoding_latency(min): 0.005776 s
+our_encoding_latency(max): 0.010002 s
+our_transmission_latency: 0.046027 s
+our_transmission_latency(min): 0.045212 s
+our_transmission_latency(max): 0.046486 s
+--------------------------------
+lrc basic NRC time: 0.026494 s
+lrc basic NRC time(min): 0.025503 s
+lrc basic NRC time(max): 0.027640 s
+--------------------------------
+lrc basic DRC time: 0.013133 s
+lrc basic DRC time(min): 0.012996 s
+lrc basic DRC time(max): 0.013317 s
+--------------------------------
+lrc basic delete time: 0.000504 s
+Get value length: 1048576
+k8s@node2:~/lrc_libmemcached-msdev$ ./mytest 12 6 3 4 12 4096
+input_file:./input_item_4096K_LRC
+------------------------------------
+count: 13
+network_core_ip:10.0.0.53
+ network_core_host:8888 
+network_core_server_key:12 
+
+rack:-1
+ii:0
+instance->port():12111
+rack:0
+ii:1
+instance->port():12112
+rack:1
+ii:2
+instance->port():12113
+rack:2
+ii:3
+instance->port():12114
+rack:3
+ii:4
+instance->port():12115
+rack:4
+ii:5
+instance->port():12116
+rack:5
+ii:6
+instance->port():12117
+rack:6
+ii:7
+instance->port():12118
+rack:7
+ii:8
+instance->port():12119
+rack:8
+ii:9
+instance->port():12120
+rack:9
+ii:10
+instance->port():12121
+rack:10
+ii:11
+instance->port():12122
+
+ptr->node2rack[0]:0
+ptr->node2rack[1]:1
+ptr->node2rack[2]:2
+ptr->node2rack[3]:3
+ptr->node2rack[4]:4
+ptr->node2rack[5]:5
+ptr->node2rack[6]:6
+ptr->node2rack[7]:7
+ptr->node2rack[8]:8
+ptr->node2rack[9]:9
+ptr->node2rack[10]:10
+ptr->node2rack[11]:11
+--------------------------------
+default lrc basic write time: 0.216283 s
+default lrc basic write time(min): 0.206488 s
+default lrc basic write time(max): 0.220369 s
+default_divide_latency: 0.010639 s
+default_divide_latency(min): 0.008761 s
+default_divide_latency(max): 0.014712 s
+default_encoding_latency: 0.029878 s
+default_encoding_latency(min): 0.022659 s
+default_encoding_latency(max): 0.033289 s
+default_transmission_latency: 0.175179 s
+default_transmission_latency(min): 0.173134 s
+default_transmission_latency(max): 0.176681 s
+Save data:lrc_big_obj_k4096
+--------------------------------
+our lrc basic write time: 0.214872 s
+our lrc basic write time(min): 0.205686 s
+our lrc basic write time(max): 0.220370 s
+our_divide_latency: 0.010055 s
+our_divide_latency(min): 0.008593 s
+our_divide_latency(max): 0.011335 s
+our_encoding_latency: 0.031455 s
+our_encoding_latency(min): 0.027494 s
+our_encoding_latency(max): 0.033781 s
+our_transmission_latency: 0.172789 s
+our_transmission_latency(min): 0.169111 s
+our_transmission_latency(max): 0.176186 s
+--------------------------------
+lrc basic NRC time: 0.098651 s
+lrc basic NRC time(min): 0.097130 s
+lrc basic NRC time(max): 0.100634 s
+--------------------------------
+lrc basic DRC time: 0.048503 s
+lrc basic DRC time(min): 0.046395 s
+lrc basic DRC time(max): 0.049337 s
+--------------------------------
+lrc basic delete time: 0.000515 s
+Get value length: 4194304

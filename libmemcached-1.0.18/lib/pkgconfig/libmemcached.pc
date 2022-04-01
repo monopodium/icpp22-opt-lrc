@@ -1,0 +1,11 @@
+prefix=/home/k8s/lrc_libmemcached-msdev/libmemcached-1.0.18
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libmemcached
+URL: http://libmemcachd.org/
+Description: libmemcached C/C++ library.
+Version: 1.0.18
+Libs: -L${libdir} -lmemcached -lmemcachedutil
+Cflags: -I${includedir}
